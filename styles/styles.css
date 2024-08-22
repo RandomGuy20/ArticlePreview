@@ -1,0 +1,135 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root
+{
+    --main-blue:hsl(246,80%,60%);
+
+
+    --very-dark-greyish-blue:hsl(217,19%,35%);
+    --Desaturated-dark-blue:hsl(214,17%,51%);
+    --grayish-blue:hsl(212,23%,69%);
+    --light-grayish-blue:hsl(210,46%,95%);
+
+    --main-font:13px;
+
+    --small-weight:500;
+
+    --large-weight:700;
+
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Manrope', sans-serif;
+    font-size: var(--main-font);
+    background-color: var(--light-grayish-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* #region Global Classes */
+
+
+/* #endregion */
+
+
+/* #region Desktop Query */
+
+.container
+{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* #region Image */
+
+.image
+{
+    height: 100%;
+}
+
+.image img
+{
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+    object-position: left;
+    overflow: hidden;
+}
+
+/* #endregion */
+
+/* #region Data */
+
+.data
+{
+    flex: 4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title
+{
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-evenly;
+}
+
+.title p
+{
+    font-size: var(--main-font);
+}
+
+
+.about-author
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.author img
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+ 
+/* #endregion */
+
+/* #endregion */
+
+
+/* #region Mobile Query */
+
+
+/* #endregion */
