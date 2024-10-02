@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles/styles.css">
+  <script src="app/app.js" async></script>
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -44,7 +45,7 @@
 
       <div class="about-author">
 
-        <div class="author">
+        <div class="author is-visible">
 
           <img src="./images/avatar-michelle.jpg" alt="Michelle" />
 
@@ -55,9 +56,27 @@
 
         </div>
 
+        <div class="social-media dark-greyish-background not-visible">  
+
+          <p class="links-data">SHARE</p>
+          
+          <button>
+            <img src="./images/icon-facebook.svg" alt="Facebook" class="social-media-image"/>
+          </button>
+      
+          <button>
+            <img src="./images/icon-twitter.svg" alt="Twitter" class="social-media-image" />
+          </button>
+      
+          <button>
+            <img src="./images/icon-pinterest.svg" alt="Pinterest"  class="social-media-image"/>
+          </button>
+      
+        </div>
+
         <div class="share">
 
-          <button class="btn">
+          <button class="btn light-greyish-background">
             <img src="./images/icon-share.svg" alt="Share" class="share-image"/>
           </button>
 
@@ -68,26 +87,6 @@
 
   </div>
 
-  <div class="social-media">  
-
-    <p class="links-data">SHARE</p>
-    
-    <button>
-      <img src="./images/icon-facebook.svg" alt="Facebook" />
-    </button>
-
-    <button>
-      <img src="./images/icon-twitter.svg" alt="Twitter" />
-    </button>
-
-    <button>
-      <img src="./images/icon-pinterest.svg" alt="Pinterest" />
-    </button>
-
-  </div>
-
-
-
 
   <!-- C
 
@@ -97,4 +96,5 @@
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
